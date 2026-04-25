@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact — WebCraft Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="css/contact.css"/>
+</head>
+<body class="contact-page">
+
+<!-- ─── NAV ─────────────────────────────────────────────── -->
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">WebCraft<span>Studio</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html#categories">Showcase</a></li>
+      <li><a href="index.html#pricing">Pricing</a></li>
+      <li><a href="terms.html">Terms</a></li>
+      <li><a href="contact.html" class="nav-cta active">Get Started</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger">&#9776;</button>
+  </div>
+</nav>
+
+<!-- ─── CONTACT HERO ──────────────────────────────────────── -->
+<section class="contact-hero">
+  <div class="contact-hero-bg"></div>
+  <div class="contact-hero-content">
+    <p class="section-tag" style="color:var(--gold)">✦ Get In Touch</p>
+    <h1>Let's Build Your<br/><em>Dream Website</em></h1>
+    <p>Fill the form below and your details will be sent directly to our WhatsApp. We'll get back to you within a few hours.</p>
+  </div>
+</section>
+
+<!-- ─── MAIN CONTACT SECTION ─────────────────────────────── -->
+<section class="contact-main">
+
+  <!-- LEFT: Info cards -->
+  <div class="contact-info">
+
+    <div class="info-card" id="wa-card">
+      <div class="info-icon wa-icon">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="28"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.28 7.041L.787 23.533l4.63-1.474A11.93 11.93 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.007-1.366l-.36-.213-3.724 1.187 1.2-3.618-.234-.372A9.818 9.818 0 1112 21.818z"/></svg>
+      </div>
+      <div>
+        <h4>WhatsApp Us</h4>
+        <a href="https://wa.me/917257896988?text=Hi%20WebCraft%20Studio!%20I%20want%20a%20website." target="_blank">+91 7257896988</a>
+        <p>Quick replies, usually within 2 hrs</p>
+      </div>
+    </div>
+
+    <div class="info-card" id="call-card">
+      <div class="info-icon call-icon">📞</div>
+      <div>
+        <h4>Call Us</h4>
+        <a href="tel:+917257896988">+91 7257896988</a>
+        <p>Mon–Sat, 9 AM – 7 PM</p>
+      </div>
+    </div>
+
+    <div class="info-card">
+      <div class="info-icon">⚡</div>
+      <div>
+        <h4>Fast Turnaround</h4>
+        <p>Your website will be ready in <strong>48 hours</strong> after confirmation.</p>
+      </div>
+    </div>
+
+    <div class="info-card terms-remind">
+      <div class="info-icon">📄</div>
+      <div>
+        <h4>Before You Order</h4>
+        <p>Please read our <a href="terms.html">Terms & Conditions</a> to understand upgrade limits and policies.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- RIGHT: Form -->
+  <div class="contact-form-wrap">
+    <div class="form-glow"></div>
+    <h3>Your Order Details</h3>
+    <p class="form-sub">All fields are required. Your info goes straight to our WhatsApp.</p>
+
+    <div class="contact-form" id="contactForm">
+
+      <div class="field-group">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" placeholder="e.g. Rahul Sharma" required/>
+        <span class="field-line"></span>
+      </div>
+
+      <div class="field-group">
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" placeholder="e.g. 9876543210" required/>
+        <span class="field-line"></span>
+      </div>
+
+      <div class="field-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" placeholder="e.g. you@gmail.com" required/>
+        <span class="field-line"></span>
+      </div>
+
+      <div class="field-group">
+        <label for="address">City / Address</label>
+        <input type="text" id="address" placeholder="e.g. Mumbai, Maharashtra" required/>
+        <span class="field-line"></span>
+      </div>
+
+      <div class="field-group">
+        <label for="business">Business Type</label>
+        <select id="business">
+          <option value="">Select category…</option>
+          <option>Healthcare / Clinic</option>
+          <option>Business / Corporate</option>
+          <option>Food / Café / Restaurant</option>
+          <option>Clothing / Branding</option>
+          <option>Other</option>
+        </select>
+        <span class="field-line"></span>
+      </div>
+
+      <div class="field-group">
+        <label for="plan">Choose Plan</label>
+        <select id="plan">
+          <option value="">Select plan…</option>
+          <option value="starter">Starter Website — ₹1,000</option>
+          <option value="monthly">Starter + Monthly Upgrades — ₹1,500/mo</option>
+        </select>
+        <span class="field-line"></span>
+      </div>
+
+      <div class="field-group">
+        <label for="message">Tell us about your website</label>
+        <textarea id="message" rows="4" placeholder="Describe what you want — pages needed, colours, logo details, etc."></textarea>
+        <span class="field-line"></span>
+      </div>
+
+      <button type="button" class="btn btn-submit" id="sendBtn" onclick="sendToWhatsApp()">
+        <svg viewBox="0 0 24 24" fill="white" width="20" style="margin-right:8px"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.28 7.041L.787 23.533l4.63-1.474A11.93 11.93 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.007-1.366l-.36-.213-3.724 1.187 1.2-3.618-.234-.372A9.818 9.818 0 1112 21.818z"/></svg>
+        Send via WhatsApp
+      </button>
+
+      <p class="form-note">By submitting, you agree to our <a href="terms.html">Terms &amp; Conditions</a>.</p>
+    </div>
+  </div>
+
+</section>
+
+<!-- ─── FOOTER ─────────────────────────────────────────────── -->
+<footer class="footer">
+  <div class="footer-inner">
+    <a href="index.html" class="logo">WebCraft<span>Studio</span></a>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="terms.html">Terms &amp; Conditions</a>
+    </div>
+    <a href="https://wa.me/917257896988" target="_blank" style="color:var(--gold)">📱 +91 7257896988</a>
+  </div>
+  <p class="footer-copy">© 2025 WebCraft Studio. All rights reserved.</p>
+</footer>
+
+<!-- Floating WhatsApp -->
+<a href="https://wa.me/917257896988?text=Hi%20WebCraft%20Studio!%20I%20want%20a%20website." target="_blank" class="float-wa">
+  <svg viewBox="0 0 24 24" fill="white" width="28"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.28 7.041L.787 23.533l4.63-1.474A11.93 11.93 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.007-1.366l-.36-.213-3.724 1.187 1.2-3.618-.234-.372A9.818 9.818 0 1112 21.818z"/></svg>
+</a>
+
+<script src="data/websites.js"></script>
+<script src="js/contact.js"></script>
+</body>
+</html>
